@@ -3,7 +3,6 @@ import plotly.express as px
 import pandas as pd
 import pandas as pd
 
-from app import db, User
 import warnings
 
 # Ignoring warnings
