@@ -21,9 +21,7 @@ def load_data(file_path):
     df = pd.read_csv(file_path, encoding="ISO-8859-1")
     return df
 
-# Function to save data to CSV
-def save_to_csv(df, file_path):
-    df.to_csv(file_path, index=False)
+
 
 
 # Function to add data manually
