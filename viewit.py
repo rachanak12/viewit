@@ -1,9 +1,5 @@
 import streamlit as st 
-import plotly.express as px 
 import pandas as pd
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-from werkzeug.security import generate_password_hash, check_password_hash
 import pandas as pd
 import plotly.express as px
 from app import db, User
