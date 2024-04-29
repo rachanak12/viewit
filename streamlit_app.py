@@ -14,7 +14,7 @@ st.title(" :bar_chart: Industry Insights")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 
 
-file_path = "trialdata.csv"
+file_path = r"viewit/trialdata.csv"
 
 # Function to load data
 def load_data(file_path):
